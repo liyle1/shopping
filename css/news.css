@@ -1,0 +1,172 @@
+@charset "utf-8";
+html {
+	font-size: 62.5%;
+}
+
+body, ul {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	font-size: 1.4rem;
+	background-color: #FCFAFA;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.wapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	overflow: hidden;
+}
+
+.text {	
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	background-image: url(../images/text01.png);
+	background-repeat: no-repeat;	
+	background-position: center;
+}
+
+.text a {
+  display: block;
+  padding-top: 50px;
+  text-decoration: none; 
+  text-align: center;  
+  color: #f40;
+}
+
+.vote  {	
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	background-image: url(../images/vote03.png);
+	background-repeat: no-repeat;	
+	background-position: center;
+}
+
+
+.vote a {
+	display: block;
+  padding-top: 50px;
+  text-decoration: none; 
+  text-align: center;  
+  color: #333;
+}
+
+.vote a:hover {
+	background-image: url(../images/vote04.png);
+	background-repeat: no-repeat;	
+	background-position: center;
+	color: #f40;
+}
+
+.add a {
+	background-image: url(../images/add03.png);
+	background-repeat: no-repeat;	
+	width: 25px;
+	height: 25px;	
+	float: right;
+	margin-top: 22px;
+	margin-right: 50px;
+}
+
+.add a:hover {
+	cursor: pointer;
+	background-image: url(../images/add04.png);
+	background-repeat: no-repeat;	
+	width: 25px;
+}
+
+.close a {
+	background-image: url(../images/close03.png);
+	background-repeat: no-repeat;	
+	width: 32px;
+	height: 32px;	
+	margin-top: 18px;
+	float: right;
+	margin-right: 50px;
+}
+
+.close a:hover {
+	cursor: pointer;
+	background-image: url(../images/close04.png);
+	background-repeat: no-repeat;	
+}
+
+.connent { 
+	overflow: hidden; 
+	-ms-overflow-style: scrollbar;
+	overflow-style: scrollbar;
+}
+
+.title { margin-bottom: 20px; }
+
+.title ul {
+	display: block;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+.title ul li {
+	float: left;
+	display: block;
+	line-height: 30px;
+	margin-right: 30px;
+}
+
+.title ul li input {
+	width: 400px;
+	padding-left: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+	background-color: none;
+	outline: none;
+	border: solid #ddd;
+  border-width: 0 0 1px 0;
+} 
+
+.title ul li select {
+	margin-left: 10px;
+}
+
+.title ul li button {
+	cursor: pointer;	
+	outline: none;
+	color: #fff;
+	background-color: #f40;
+	border: none;
+}
+
+.details {	
+	margin-left: 30px;
+}
+
+.details ul  {
+	float: left;
+	margin-top: 20px;
+}
+
+.details ul li {
+	float: left;
+}
+
+.details ul li:last-child {
+	padding-left: 6px;
+}
+
+.details textarea {
+	padding-left: 10px;
+	padding-top: 10px;
+	outline: none;
+	background-color: #fff;
+}

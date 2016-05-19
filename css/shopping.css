@@ -1,0 +1,262 @@
+@charset "utf-8";
+html {
+	font-size: 62.5%;
+}
+
+body, h1, h2, h3 {
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	font-size: 1.4rem;	
+	background-color: #fff;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.warpper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {		
+	overflow: hidden;	
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.top { 	
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.top ul li a {
+	display: block;	
+	margin-left: 15px;
+	margin-right: 20px;
+	margin-top: 5px;	
+	color: #f40;
+	text-decoration: none;
+	text-align: center;
+}
+
+.top>ul>li { float: left; }
+
+.subnav {
+	position: absolute;
+	background: #fff;
+}
+
+.subnav li a {
+	margin: 0;
+}
+
+.top>ul>li .subnav { 
+	display: none;
+	margin: 0; 
+}
+
+.top>ul>li:hover .subnav { display: block }
+
+.main {	overflow: hidden; }
+
+.logo {
+	overflow: hidden;
+	margin-top: 30px;	
+	background-color: #FCFAFA;
+	border: 1px solid #FCFAFA;
+	border-radius: 15px;
+}
+
+.logo h1 {
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.logo h2 {
+	float: left;
+	margin-top: 10px;
+}
+
+.logo h2 a {	
+	margin-left: 40px;
+	color: #f40;
+	text-decoration: none;
+}
+
+.serach span {
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+.serach input {	
+	border: 2px solid #f40;
+}
+
+.serach input:nth-of-type(1) {
+	width: 300px;
+	outline: none;
+	padding-left: 5px;
+}
+
+.serach input:last-child {	
+	width: 60px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #f40;
+}
+
+.crumbs {
+	overflow: hidden;
+  margin-top: 20px;
+  color: #000;
+}
+
+.crumbs a {
+	color: #36c;
+	text-decoration: none;
+}
+
+.crumbs a:hover {
+	color: #f40;
+	text-decoration: underline;
+}
+
+.crumbs h3 {
+  float: left;
+  margin-top: 12px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.crumbs li {
+  float: left;
+  padding-left: 5px;
+}
+
+.crumbs span {
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.shop {	margin-top: 30px; }
+
+.empty h2 {
+	float: left; 	
+ 	width: 111px; 
+ 	height: 135px;
+ 	background-image: url(../images/shopping_02.png);
+	background-repeat: no-repeat;	
+}
+
+.empty h3 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.look { position: relative; }
+
+.look ul {
+	position: absolute;
+	left: 130px;
+	top: 40px;
+  margin-top: 12px;
+  line-height: 20px;
+}
+
+.look li { margin-top: 5px;	}
+.look li a {
+	color: #f40;
+	text-decoration: none;
+}
+
+.look li a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+.recommend { overflow: hidden; }
+
+.recommend ul li a {
+	display: block;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #f40;
+	text-decoration: none;
+}
+
+.recommend ul li a:hover { 
+	color: red;
+	text-decoration: underline;
+}
+
+.recommend li {
+	float: left;
+}
+
+.recommend>ul>li .nav {
+	display: none;
+	margin: 0;
+}
+.nav { 
+	position: absolute;
+	left: 200px; 	
+}
+
+.nav li { margin-top: 10px; }
+
+
+.recommend>ul>li:hover .nav {
+	display: block;
+}
+
+.footer {
+	overflow: hidden;
+	margin-top: 180px;
+	color: #6c6c6c;
+}
+
+.footsy {
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.footsy li {
+	float: left;
+	margin-left: 10px;
+}
+
+.footsy li:last-child { color: #9c9c9c; }
+
+.footsy li a { 
+	display: block; 
+	color: #6c6c6c;
+	text-decoration: none;
+}
+
+.footsy li a:hover { color: red; }
+
+.foot {	margin-top: 10px; }
+
+.foot span {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #9c9c9c;
+}
+
+.foot span a {
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+.foot span a:hover { color: #f00; }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>添加地址</title>
+	<link rel="stylesheet" href="css/address.css">
+</head>
+<body>
+	<div class="warpper">
+		<div class="header">
+			<div class="top">
+				<ul>
+					<li><a href="登录">亲，请登录</a></li>
+					<li><a href="注册">快速注册</a></li>
+					<li><a href="商城">进入商城</a></li>
+				</ul>
+				<ul>
+					<li><a href="商城">潮流阁首页</a></li>
+					<li>
+						<a href="#">我的潮流阁</a>
+					</li>
+					<li><a href="购物车">购物车</a></li>
+					<li>
+						<a href="#">收藏夹</a>
+					</li>
+					<li>
+						<a href="#">卖家中心</a>
+					</li>
+					<li><a href="#">卖家培训中心</a></li>
+					<li>
+						<a href="#">联系客服</a>
+					</li>
+					</ul>
+			</div>			
+		</div>
+		<div class="nav">			
+			<ul>
+				<li><a href=""><img src="images/login.png" alt=""></a></li>
+				<li><a href="">首页</a></li>
+				<li><a href="">账户设置</a></li>
+				<li><a href="">消息</a></li>
+			</ul>
+			<div class="serach">
+				<form action="">
+				<span>
+				<input type="text"><input type="button" value="搜索"></span>				
+				</form>		
+			</div>	
+		</div>
+	</div>
+	<div class="main">
+		<div class="sidebar">
+			<img src="images/icon.jpg" alt="">
+			<h3>账号管理</h3>
+			<ul>
+				<li><a href="#">安全设置</a></li>
+				<li><a href="#">个人资料</a></li>
+				<li><a href="#">隐私设置</a></li>
+				<li><a href="#">个人成长信息</a></li>
+				<li><a href="#">支付宝绑定设置</a></li>
+				<li><a href="#">微博绑定设置</a></li>
+				<li><a href="#">个人交易信息</a></li>
+				<li><a href="#">网站提醒</a></li>
+				<li><a href="#">收货地址</a></li>
+				<li><a href="#">应用授权</a></li>
+				<li><a href="#">分享绑定</a></li>
+			</ul>
+		</div>
+		<div class="connent">
+			<div class=" receipt">
+				<h3>收货地址</h3>
+			</div>
+			<div class="center">			
+				<div class="add">
+					<p><span>新增收货地址</span>　电话号码、手机号选填一项, 其余均为必填项</p>
+					<span>所在地区 *&nbsp;
+						<select>  
+					  <option value ="1">请选择</option>  
+					  <option value ="2">中国大陆</option>  
+					  <option value="3">台湾</option>  
+					  <option value="4">香港</option>  
+					  <option value="4">海外其他</option> 
+						</select>
+					 	<select>  
+					  <option class="provincial" value ="1">请选择省市区</option>  
+						</select>
+					</span>
+				</div>
+				<div class="detail">
+					<div class="da">
+						<span>详细地址 *</span>
+					</div>
+					<div class="address">
+						<textarea aria-combobox="list" role="combobox" autocomplete="off" placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息" data-inner_placeholder="d_p_input_inner_detailAddress" data-pattern="^[\s\S]{5,120}$" data-msg="d_p_detailAddress_msg" data-ph="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息"></textarea>
+					</div>
+				</div>
+				<div class="coding">
+					<span>邮政编码&nbsp;&nbsp;
+					<input name="post" aria-label="邮政编码" maxlength="16" data-item="postcode" placeholder="如您不清楚邮递区号，请填写000000" data-inner_placeholder="d_p_input_inner_postCode" data-ph="如您不清楚邮递区号，请填写000000" data-pattern="^.{0,16}$" data-msg="d_p_postCode_msg"type="text" value=""></span>
+				</div>
+				<div class="consignee">
+					<span>收货人姓名 
+					<input maxlength="25" placeholder="长度不超过25个字符" type="text" value=""></span>
+				</div>
+				<div class="tel">
+					<span>手机号码
+						<select>  
+						  <option value ="1">中国大陆+86</option> 
+						  </select>
+						  <input placeholder="电话号码、手机号码必须一致" type="text">
+					</span>			
+				</div>
+				<div class="default">
+					<input type="checkbox"><span>设置为默认收货地址</span>
+				</div>
+				<button class="btn" type="submit">保存</button>
+				</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="#">关于潮流阁</a>
+		<a href="#">合作伙伴</a>
+		<a href="#">营销中心</a>
+		<a href="#">联系客服</a>
+		<a href="#">开放平台</a>
+		<a href="#">诚征英才</a>
+		<a href="#">联系我们</a>
+		<a href="#">网站地图</a>
+		<a href="#">法律声明</a>
+		<span> © 2015 Taobao.com 版权所有</span> 
+	</div>
+</body>
+</html>

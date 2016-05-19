@@ -1,0 +1,418 @@
+@charset "utf-8";
+html {
+	font-size: 62.5%;
+}
+body, h1, h3 {
+	margin: 0;
+	font-weight: normal;
+}
+
+body {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	font-size: 1.4rem;
+	background-color: #FCFAFA;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.header {
+	height: 25px;	
+	margin-top: 20px;
+}
+
+.top { 
+	width: 960px;
+	margin: 0 auto;
+	color: #f40;
+}
+
+.top ul li a {
+	display: block;	
+	margin-left: 15px;
+	margin-right: 20px;
+	color: #f40;
+	text-decoration: none;
+	text-align: center;
+}
+
+.top ul li:last-child a {
+	margin-right: 18px;
+}
+
+.top>ul>li { float: left; }
+
+.subnav {
+	position: absolute;
+	background: #fff;
+}
+
+.top>ul>li .subnav { 
+	display: none;
+	margin: 0; 
+}
+
+.top>ul>li:hover .subnav { 
+	display: block; 
+	opacity: 0.8;
+	background-color: #fff;
+}
+
+.nav {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 30px;
+	background-color: #fff;
+	opacity: 0.9;
+	border: 1px solid #FCFAFA;
+	border-radius: 15px;
+}
+
+.nav li {
+	float: left;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.nav li:nth-of-type(1) {
+	margin-top: 0px;
+}
+
+.nav li a {
+	display: block;
+	padding-left: 5px;
+	font-size: 1.8rem;
+	color: #666;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	text-decoration: underline;
+}
+
+.snav {
+	position: absolute;  
+}
+
+.nav>ul>li .snav li {
+	float: none;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.nav>ul>li .snav { 
+	display: none; 
+	background-color: #fff;
+}
+
+.nav>ul>li:hover .snav {
+	display: block;
+	opacity: 0.8;
+}
+
+.serach span {
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.serach input {
+	padding-left: 5px;
+	outline: none;
+}
+
+.serach input:last-child {
+	cursor: pointer;
+}
+
+.main {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 40px;
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+
+.sidebar {
+	float: left;
+	width: 150px;
+	margin-top: 20px;
+}
+
+.sidebar img { padding-left: 10px; }
+.sidebar h3 {
+	padding-left: 10px;
+	margin-top: 10px;
+	color: #999;
+}
+
+.sidebar li {
+	display: block;
+}
+
+.sidebar li a {
+	display: block;
+  overflow: hidden;
+  padding-left: 20px;
+  height: 28px;
+  line-height: 28px;
+  color: #666;
+  text-decoration: none;  
+}
+
+.sidebar li:nth-of-type(1) a {
+	background-color: #E6E6E6;
+}
+
+.sidebar li a:hover { 
+	background-color: #E6E6E6;
+}
+
+.connent {
+	float: left;
+	width: 808px;
+	margin-top: 0;
+	border: 1px solid #E8DEF2;
+}
+
+.base {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.base h3 {
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #000;
+}
+
+.base li {
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+.base a {
+	color: #36c;
+	text-decoration: none;
+}
+
+.base a:hover {
+	color: #f50;
+	text-decoration: underline;
+}
+
+.serve { 
+	overflow: hidden; 
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.serve h3 {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.safety { 
+	float: left; 
+  width: 345px;
+}
+.safety {	
+	margin-left: 50px;
+	background-image: url(../images/safety.png);	
+	background-repeat: no-repeat;
+	background-position: 100px;	
+	background-size: 252px 12px;
+}
+
+.logo {
+	float: left;
+	margin-left: 15px;
+	background-image: url(../images/safety02.png);
+	background-repeat: no-repeat;
+	background-size: 16px 18px;	
+}
+
+.logo span { margin-left: 20px; }
+
+.logo a {
+	margin-left: 4px;
+	margin-right: 2px;
+	color: #1379DE;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	color: #f40;
+	text-decoration: underline;
+}
+
+.identity {
+	overflow: hidden;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #e1e1e1;
+}
+
+.identity a {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	font-weight: bold;
+	color: #36c;
+	text-decoration: none;
+}
+
+.identity a:hover {
+	font-weight: bold;
+	color: #f40;
+	text-decoration: underline;
+}
+
+.state {	
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.state span {
+	margin-right: 20px;
+}
+
+.supply {
+	float: left;
+	margin-left: 20px;
+}
+
+.supply p {
+	width:380px;
+}
+
+.password {
+	overflow: hidden;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #e1e1e1;	
+}
+
+.password a {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	font-weight: bold;
+	color: #36c;
+	text-decoration: none;
+}
+
+.password a:hover {
+	font-weight: bold;
+	color: #f40;
+	text-decoration: underline;
+}
+
+.logon {	
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.logon span {
+	margin-right: 20px;
+}
+
+.question {
+	overflow: hidden;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #e1e1e1;
+}
+
+.question a {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	font-weight: bold;
+	color: #36c;
+	text-decoration: none;
+}
+
+.question a:hover {
+	font-weight: bold;
+	color: #f40;
+	text-decoration: underline;
+}
+
+.alert {	
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.alert span {
+	margin-right: 20px;
+}
+
+.phonebind {
+	overflow: hidden;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;	
+}
+
+.phonebind a {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	font-weight: bold;
+	color: #36c;
+	text-decoration: none;
+}
+
+.phonebind a:hover {
+	font-weight: bold;
+	color: #f40;
+	text-decoration: underline;
+}
+
+.over {	
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.over span {
+	margin-right: 20px;
+}
+
+
+.footer {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer a {
+	margin-left: 15px;
+	color: #000;
+	text-decoration: none;
+}
+
+
+.footer a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+.footer span {
+	margin-left: 62px;
+}
